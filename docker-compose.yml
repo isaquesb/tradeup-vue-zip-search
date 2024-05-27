@@ -1,0 +1,20 @@
+services:
+    app:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: spa/app
+        container_name: spa_app
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        ports:
+            - '${APP_PORT:-8888}:80'
+#        volumes:
+#            - './api:/var/www/html'
+#            - './.setup:/var/www/html/.setup'
+#            - '.setup/nginx/nginx.conf:/etc/nginx/nginx.conf'
+        networks:
+            - ntw
+networks:
+    ntw:
+        driver: bridge
