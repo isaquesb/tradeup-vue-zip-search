@@ -1,6 +1,7 @@
 # TradeUp Vue Zip Search
 
-<video src="https://github.com/isaquesb/tradeup-vue-zip-search/raw/main/docs/demo.webm" controls="controls" style="max-width: 100%;"></video>
+[demo.webm](https://github.com/isaquesb/tradeup-vue-zip-search/assets/3066343/fd4e7cfb-39ad-4ead-a6ad-50d49b251ffa)
+
 
 ## Project setup
 ```
