@@ -5,6 +5,9 @@
 docker compose up -d
 ```
 
+## Accessing the project
+http://localhost:8888
+
 ### Compiles and hot-reloads for development
 ```
 yarn serve
