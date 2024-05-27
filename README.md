@@ -1,5 +1,7 @@
 # TradeUp Vue Zip Search
 
+<video src="https://github.com/isaquesb/tradeup-vue-zip-search/raw/main/docs/demo.webm" controls="controls" style="max-width: 100%;"></video>
+
 ## Project setup
 ```
 docker compose up -d
